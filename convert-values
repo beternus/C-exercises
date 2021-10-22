@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+#include <string.h>
+#include <windows.h>
+
+//********Corpo de Programa********
+int main(void)
+{
+   char n[80];
+   int b;
+   printf("\t\tDigite sua string:\t");
+   gets(n);
+   printf("\n\n");
+   printf("\t\tVeja sua string em caracteres:");
+   for(b=0;b<=strlen(n)-1;b++) printf("\t%c",n[b]-32);
+   printf("\n\n");
+   system("pause");
+}
