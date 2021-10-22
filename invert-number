@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+#include <string.h>
+//#include <windows.h>
+
+#define pi 3.14
+
+//*********Corpo de Programa*********
+int main (void)
+{
+    char v[80];
+    int b;
+    printf("\n\t-> Digite a sua string:\t");
+    gets(v);
+    printf("\n\t-> Ordem invertida:\t");
+    b=strlen(v)-1;
+    for(b;b>=0;b--) printf("%c",v[b]);
+    printf("\n\n");
+    system("pause");
+}
