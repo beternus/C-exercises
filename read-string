@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+#include <string.h>
+#include <windows.h>
+
+//***********Corpo de Programa************
+int main(void)
+{
+    char a[30];
+    int b;
+    gets(a);
+    printf("\n");
+    for(b=0;b<=strlen(a)-1;b++)
+    {
+       if(a[b]!=32) printf("%c",a[b]);    //escreve a string separada
+       else printf("\n");
+    }
+    printf("\n\n");
+    system("pause");
+}
